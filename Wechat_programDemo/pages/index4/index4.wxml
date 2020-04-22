@@ -1,0 +1,33 @@
+<view>
+    <view>常用组件</view>
+    <view hover-class="dex">View-点击有动态效果</view>
+    <view>
+        <text selectable="{{true}}" decode="{{true}}">普通&nbsp;的文本</text>
+    </view>
+    <view>image-图片标签</view>
+    <view>
+        <!-- image是web标签img与背景图片的结合体 -->
+        <image src="../../images/like.jpg" mode="widthFix" />
+    </view>
+    <view>
+        <swiper circular="{{true}}" indicator-dots="{{true}}" indicator-active-color="#8E9" indicator-color="rgba(0, 0, 0, .3)" interval="1500" autoplay="{{true}}">
+            <swiper-item>
+                <image src="../../images/img101.png" mode="widthFix"></image>
+            </swiper-item>
+            <swiper-item>
+                <image src="../../images/img102.jpg" mode="widthFix"></image>
+            </swiper-item>
+            <swiper-item>
+                <image src="../../images/img103.png" mode="widthFix"></image>
+            </swiper-item>
+        </swiper>
+    </view>
+    <view>swiper轮播图</view>
+    <view >
+    <!-- 保留当前⻚⾯，跳转到应⽤内的某个⻚⾯，但是不能跳到tabbar ⻚⾯ -->
+    <navigator target="self" url="../index5/index5" open-type="navigate">navigator(navigate)演示-index5</navigator>
+    <!-- 关闭当前⻚⾯，跳转到应⽤内的某个⻚⾯，但是不允许跳转到tabbar ⻚⾯。 -->
+    <navigator url="../index5/index5" open-type="redirect">navigator(redirect)演示-index5</navigator>
+    <navigator url="../index2/index2" open-type="switchTab">navigator(switchTab)演示-index5</navigator>
+    </view>
+</view>

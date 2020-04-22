@@ -1,0 +1,11 @@
+/* pages/index4/index4.wxss */
+.dex {
+  font-size: 20px;
+  color: pink;
+  background-color: green;
+}
+
+image {
+  width: 100%;
+  border: 1px solid whitesmoke;
+}

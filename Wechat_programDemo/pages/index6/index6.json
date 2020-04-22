@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "页面5-视频播放",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true,
+  "backgroundColor":"#F4606C",
+  "navigationBarBackgroundColor": "#BEE",
+  "usingComponents": {
+    "Myheader":"../../components/Myheader/Myheader"
+  }
+}

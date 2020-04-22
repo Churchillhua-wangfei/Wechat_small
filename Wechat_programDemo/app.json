@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index3/index3",
+    "pages/index2/index2",
+    "pages/index4/index4",
+    "pages/index5/index5",
+    "pages/index6/index6",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#E6E6FA",
+    "navigationBarBackgroundColor": "#E8BA36",
+    "navigationBarTitleText": "王飞",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#D1BA74",
+    "selectedColor": "#000000",
+    "backgroundColor": "#E6E6FA",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "黑凤梨",
+        "iconPath": "icons/like.png",
+        "selectedIconPath": "icons/like_active.png"
+      },
+      {
+        "pagePath": "pages/index3/index3",
+        "text": "闪电",
+        "iconPath": "icons/power.png",
+        "selectedIconPath": "icons/power_active.png"
+      },
+      {
+        "pagePath": "pages/index2/index2",
+        "text": "冠军",
+        "iconPath": "icons/cup.png",
+        "selectedIconPath": "icons/cup_active.png"
+      },
+      {
+        "pagePath": "pages/index4/index4",
+        "text": "书本",
+        "iconPath": "icons/book.png",
+        "selectedIconPath": "icons/book_activie.png"
+      },
+      {
+        "pagePath": "pages/index6/index6",
+        "text": "视频",
+        "iconPath": "icons/video.png",
+        "selectedIconPath": "icons/video_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap27.json"
+}

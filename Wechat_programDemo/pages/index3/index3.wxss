@@ -1,0 +1,20 @@
+/* pages/index3/index3.wxss */
+/* 750px 宽度与高度 100px */
+/*  375px 宽度与高度 50px */
+.box1{
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    background-color: coral;
+}
+.myclor{
+    background-color: yellow;
+    color: red;
+
+}
+#ha{
+    background-color: aqua;
+    font-size: 20px;
+}
+/* 导入样式 */
+@import "../../styleus/box2.wxss";

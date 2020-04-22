@@ -1,0 +1,18 @@
+<view>
+    message:{{msg}}
+    <view>
+        <checkbox checked="{{ischecked?true:flase}}" color="#9EA8DA" />
+    </view>
+    <view>{{1+1}}</view>
+    <view>{{num1+num2}}</view>
+    <view>{{str1+str2}}</view>
+    <view>
+        <checkbox checked="{{num3>=40}}" color="#9EA8DA" />
+    </view>
+    <view wx:for="{{arr}}" wx:key="{{index}}" wx:for-index="key">{{key}}:{{item}}</view>
+    <block wx:for="{{person}}" wx:key="{{index}}" wx:for-index="key">{{key}}:{{item}}</block>
+    <view class="box1">font</view>
+    <view class="lg_box">样式导入</view>
+    <view class="myclor" >样式的其他补充</view>
+    <view id="ha">#id选择器</view>
+</view>

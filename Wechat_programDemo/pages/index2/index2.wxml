@@ -1,0 +1,17 @@
+<view>
+    现在是11点26分 ||{{msg}}
+    <view>num:{{num}}</view>
+    <view>boy:{{boy}}</view>
+    <view>
+        student.name:{{student.name}}--student.age:{{student.age}}--student.heigth:{{student.h}}
+    </view>
+    <view data-id="{{title}}">这里是新页面2</view>
+    <view data-id="{{title02}}">这里是新页面03</view>
+    <view>
+        <checkbox checked="{{false}}">多选框</checkbox>
+    </view>
+    <view>
+        <checkbox color="#E8BA36" checked="{{true}} " />
+        多选框02
+    </view>
+</view>

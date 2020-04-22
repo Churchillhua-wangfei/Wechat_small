@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "页面4",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true,
+  "backgroundColor":"#F4606C",
+  "navigationBarBackgroundColor": "#E6E6FA",
+  "usingComponents": {}
+}

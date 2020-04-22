@@ -1,0 +1,4 @@
+<video src="../../video/cola.mp4"  controls="{{true}} " />
+<view >
+<Myheader>页面14</Myheader>
+</view>
